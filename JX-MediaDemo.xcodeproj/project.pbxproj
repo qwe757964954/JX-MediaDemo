@@ -1,0 +1,622 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9C13D3E91D20D52F00EBD565 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C13D3E81D20D52F00EBD565 /* main.m */; };
+		9C13D3EC1D20D52F00EBD565 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C13D3EB1D20D52F00EBD565 /* AppDelegate.m */; };
+		9C13D3EF1D20D52F00EBD565 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C13D3EE1D20D52F00EBD565 /* ViewController.m */; };
+		9C13D3F21D20D52F00EBD565 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C13D3F01D20D52F00EBD565 /* Main.storyboard */; };
+		9C13D3F41D20D52F00EBD565 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C13D3F31D20D52F00EBD565 /* Assets.xcassets */; };
+		9C13D3F71D20D52F00EBD565 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C13D3F51D20D52F00EBD565 /* LaunchScreen.storyboard */; };
+		9C13D4021D20D52F00EBD565 /* JX_MediaDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C13D4011D20D52F00EBD565 /* JX_MediaDemoTests.m */; };
+		9C13D40D1D20D52F00EBD565 /* JX_MediaDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C13D40C1D20D52F00EBD565 /* JX_MediaDemoUITests.m */; };
+		9C13D41B1D20D57000EBD565 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C13D41A1D20D57000EBD565 /* AudioToolbox.framework */; };
+		9C13D41D1D20D57600EBD565 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C13D41C1D20D57600EBD565 /* AVFoundation.framework */; };
+		9C13D41F1D20D57E00EBD565 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C13D41E1D20D57E00EBD565 /* CoreGraphics.framework */; };
+		9C13D4211D20D58A00EBD565 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C13D4201D20D58A00EBD565 /* CoreMedia.framework */; };
+		9C13D4231D20D59D00EBD565 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C13D4221D20D59D00EBD565 /* libz.tbd */; };
+		9C13D4251D20D5A700EBD565 /* libbz2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C13D4241D20D5A700EBD565 /* libbz2.tbd */; };
+		9C13D4271D20D5B200EBD565 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C13D4261D20D5B200EBD565 /* MediaPlayer.framework */; };
+		9C13D4291D20D5BA00EBD565 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C13D4281D20D5BA00EBD565 /* OpenGLES.framework */; };
+		9C13D42B1D20D5C300EBD565 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C13D42A1D20D5C300EBD565 /* QuartzCore.framework */; };
+		9C13D42D1D20D5CA00EBD565 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C13D42C1D20D5CA00EBD565 /* UIKit.framework */; };
+		9C13D42F1D20D5D200EBD565 /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C13D42E1D20D5D200EBD565 /* VideoToolbox.framework */; };
+		9C38A4A51D20D9D200A4EB0C /* IJKMediaFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C38A4A41D20D9D200A4EB0C /* IJKMediaFramework.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9C13D3FE1D20D52F00EBD565 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9C13D3DC1D20D52F00EBD565 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9C13D3E31D20D52F00EBD565;
+			remoteInfo = "JX-MediaDemo";
+		};
+		9C13D4091D20D52F00EBD565 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9C13D3DC1D20D52F00EBD565 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9C13D3E31D20D52F00EBD565;
+			remoteInfo = "JX-MediaDemo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9C13D3E41D20D52F00EBD565 /* JX-MediaDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "JX-MediaDemo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C13D3E81D20D52F00EBD565 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9C13D3EA1D20D52F00EBD565 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9C13D3EB1D20D52F00EBD565 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9C13D3ED1D20D52F00EBD565 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9C13D3EE1D20D52F00EBD565 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9C13D3F11D20D52F00EBD565 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9C13D3F31D20D52F00EBD565 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9C13D3F61D20D52F00EBD565 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9C13D3F81D20D52F00EBD565 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C13D3FD1D20D52F00EBD565 /* JX-MediaDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "JX-MediaDemoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C13D4011D20D52F00EBD565 /* JX_MediaDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JX_MediaDemoTests.m; sourceTree = "<group>"; };
+		9C13D4031D20D52F00EBD565 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C13D4081D20D52F00EBD565 /* JX-MediaDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "JX-MediaDemoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C13D40C1D20D52F00EBD565 /* JX_MediaDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JX_MediaDemoUITests.m; sourceTree = "<group>"; };
+		9C13D40E1D20D52F00EBD565 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C13D41A1D20D57000EBD565 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		9C13D41C1D20D57600EBD565 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		9C13D41E1D20D57E00EBD565 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9C13D4201D20D58A00EBD565 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		9C13D4221D20D59D00EBD565 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		9C13D4241D20D5A700EBD565 /* libbz2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libbz2.tbd; path = usr/lib/libbz2.tbd; sourceTree = SDKROOT; };
+		9C13D4261D20D5B200EBD565 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		9C13D4281D20D5BA00EBD565 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		9C13D42A1D20D5C300EBD565 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		9C13D42C1D20D5CA00EBD565 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9C13D42E1D20D5D200EBD565 /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = System/Library/Frameworks/VideoToolbox.framework; sourceTree = SDKROOT; };
+		9C38A4A41D20D9D200A4EB0C /* IJKMediaFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IJKMediaFramework.framework; path = "JX-MediaDemo/IJKMediaFramework.framework"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9C13D3E11D20D52F00EBD565 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C38A4A51D20D9D200A4EB0C /* IJKMediaFramework.framework in Frameworks */,
+				9C13D42F1D20D5D200EBD565 /* VideoToolbox.framework in Frameworks */,
+				9C13D42D1D20D5CA00EBD565 /* UIKit.framework in Frameworks */,
+				9C13D42B1D20D5C300EBD565 /* QuartzCore.framework in Frameworks */,
+				9C13D4291D20D5BA00EBD565 /* OpenGLES.framework in Frameworks */,
+				9C13D4271D20D5B200EBD565 /* MediaPlayer.framework in Frameworks */,
+				9C13D4251D20D5A700EBD565 /* libbz2.tbd in Frameworks */,
+				9C13D4231D20D59D00EBD565 /* libz.tbd in Frameworks */,
+				9C13D4211D20D58A00EBD565 /* CoreMedia.framework in Frameworks */,
+				9C13D41F1D20D57E00EBD565 /* CoreGraphics.framework in Frameworks */,
+				9C13D41D1D20D57600EBD565 /* AVFoundation.framework in Frameworks */,
+				9C13D41B1D20D57000EBD565 /* AudioToolbox.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C13D3FA1D20D52F00EBD565 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C13D4051D20D52F00EBD565 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9C13D3DB1D20D52F00EBD565 = {
+			isa = PBXGroup;
+			children = (
+				9C38A4A41D20D9D200A4EB0C /* IJKMediaFramework.framework */,
+				9C13D42E1D20D5D200EBD565 /* VideoToolbox.framework */,
+				9C13D42C1D20D5CA00EBD565 /* UIKit.framework */,
+				9C13D42A1D20D5C300EBD565 /* QuartzCore.framework */,
+				9C13D4281D20D5BA00EBD565 /* OpenGLES.framework */,
+				9C13D4261D20D5B200EBD565 /* MediaPlayer.framework */,
+				9C13D4241D20D5A700EBD565 /* libbz2.tbd */,
+				9C13D4221D20D59D00EBD565 /* libz.tbd */,
+				9C13D4201D20D58A00EBD565 /* CoreMedia.framework */,
+				9C13D41E1D20D57E00EBD565 /* CoreGraphics.framework */,
+				9C13D41C1D20D57600EBD565 /* AVFoundation.framework */,
+				9C13D41A1D20D57000EBD565 /* AudioToolbox.framework */,
+				9C13D3E61D20D52F00EBD565 /* JX-MediaDemo */,
+				9C13D4001D20D52F00EBD565 /* JX-MediaDemoTests */,
+				9C13D40B1D20D52F00EBD565 /* JX-MediaDemoUITests */,
+				9C13D3E51D20D52F00EBD565 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9C13D3E51D20D52F00EBD565 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9C13D3E41D20D52F00EBD565 /* JX-MediaDemo.app */,
+				9C13D3FD1D20D52F00EBD565 /* JX-MediaDemoTests.xctest */,
+				9C13D4081D20D52F00EBD565 /* JX-MediaDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9C13D3E61D20D52F00EBD565 /* JX-MediaDemo */ = {
+			isa = PBXGroup;
+			children = (
+				9C13D4301D20D65900EBD565 /* Classes */,
+				9C13D4311D20D65900EBD565 /* Frameworks */,
+				9C13D4321D20D65900EBD565 /* LJKMediaFramework */,
+				9C13D4331D20D65900EBD565 /* LJKMediaFrameworkTests */,
+				9C13D4341D20D65900EBD565 /* Products */,
+				9C13D3EA1D20D52F00EBD565 /* AppDelegate.h */,
+				9C13D3EB1D20D52F00EBD565 /* AppDelegate.m */,
+				9C13D3ED1D20D52F00EBD565 /* ViewController.h */,
+				9C13D3EE1D20D52F00EBD565 /* ViewController.m */,
+				9C13D3F01D20D52F00EBD565 /* Main.storyboard */,
+				9C13D3F31D20D52F00EBD565 /* Assets.xcassets */,
+				9C13D3F51D20D52F00EBD565 /* LaunchScreen.storyboard */,
+				9C13D3F81D20D52F00EBD565 /* Info.plist */,
+				9C13D3E71D20D52F00EBD565 /* Supporting Files */,
+			);
+			path = "JX-MediaDemo";
+			sourceTree = "<group>";
+		};
+		9C13D3E71D20D52F00EBD565 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9C13D3E81D20D52F00EBD565 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9C13D4001D20D52F00EBD565 /* JX-MediaDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				9C13D4011D20D52F00EBD565 /* JX_MediaDemoTests.m */,
+				9C13D4031D20D52F00EBD565 /* Info.plist */,
+			);
+			path = "JX-MediaDemoTests";
+			sourceTree = "<group>";
+		};
+		9C13D40B1D20D52F00EBD565 /* JX-MediaDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9C13D40C1D20D52F00EBD565 /* JX_MediaDemoUITests.m */,
+				9C13D40E1D20D52F00EBD565 /* Info.plist */,
+			);
+			path = "JX-MediaDemoUITests";
+			sourceTree = "<group>";
+		};
+		9C13D4301D20D65900EBD565 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		9C13D4311D20D65900EBD565 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
+		9C13D4321D20D65900EBD565 /* LJKMediaFramework */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = LJKMediaFramework;
+			sourceTree = "<group>";
+		};
+		9C13D4331D20D65900EBD565 /* LJKMediaFrameworkTests */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = LJKMediaFrameworkTests;
+			sourceTree = "<group>";
+		};
+		9C13D4341D20D65900EBD565 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9C13D3E31D20D52F00EBD565 /* JX-MediaDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C13D4111D20D52F00EBD565 /* Build configuration list for PBXNativeTarget "JX-MediaDemo" */;
+			buildPhases = (
+				9C13D3E01D20D52F00EBD565 /* Sources */,
+				9C13D3E11D20D52F00EBD565 /* Frameworks */,
+				9C13D3E21D20D52F00EBD565 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "JX-MediaDemo";
+			productName = "JX-MediaDemo";
+			productReference = 9C13D3E41D20D52F00EBD565 /* JX-MediaDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9C13D3FC1D20D52F00EBD565 /* JX-MediaDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C13D4141D20D52F00EBD565 /* Build configuration list for PBXNativeTarget "JX-MediaDemoTests" */;
+			buildPhases = (
+				9C13D3F91D20D52F00EBD565 /* Sources */,
+				9C13D3FA1D20D52F00EBD565 /* Frameworks */,
+				9C13D3FB1D20D52F00EBD565 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9C13D3FF1D20D52F00EBD565 /* PBXTargetDependency */,
+			);
+			name = "JX-MediaDemoTests";
+			productName = "JX-MediaDemoTests";
+			productReference = 9C13D3FD1D20D52F00EBD565 /* JX-MediaDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9C13D4071D20D52F00EBD565 /* JX-MediaDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C13D4171D20D52F00EBD565 /* Build configuration list for PBXNativeTarget "JX-MediaDemoUITests" */;
+			buildPhases = (
+				9C13D4041D20D52F00EBD565 /* Sources */,
+				9C13D4051D20D52F00EBD565 /* Frameworks */,
+				9C13D4061D20D52F00EBD565 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9C13D40A1D20D52F00EBD565 /* PBXTargetDependency */,
+			);
+			name = "JX-MediaDemoUITests";
+			productName = "JX-MediaDemoUITests";
+			productReference = 9C13D4081D20D52F00EBD565 /* JX-MediaDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9C13D3DC1D20D52F00EBD565 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "建星";
+				TargetAttributes = {
+					9C13D3E31D20D52F00EBD565 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					9C13D3FC1D20D52F00EBD565 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 9C13D3E31D20D52F00EBD565;
+					};
+					9C13D4071D20D52F00EBD565 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 9C13D3E31D20D52F00EBD565;
+					};
+				};
+			};
+			buildConfigurationList = 9C13D3DF1D20D52F00EBD565 /* Build configuration list for PBXProject "JX-MediaDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9C13D3DB1D20D52F00EBD565;
+			productRefGroup = 9C13D3E51D20D52F00EBD565 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9C13D3E31D20D52F00EBD565 /* JX-MediaDemo */,
+				9C13D3FC1D20D52F00EBD565 /* JX-MediaDemoTests */,
+				9C13D4071D20D52F00EBD565 /* JX-MediaDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9C13D3E21D20D52F00EBD565 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C13D3F71D20D52F00EBD565 /* LaunchScreen.storyboard in Resources */,
+				9C13D3F41D20D52F00EBD565 /* Assets.xcassets in Resources */,
+				9C13D3F21D20D52F00EBD565 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C13D3FB1D20D52F00EBD565 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C13D4061D20D52F00EBD565 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9C13D3E01D20D52F00EBD565 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C13D3EF1D20D52F00EBD565 /* ViewController.m in Sources */,
+				9C13D3EC1D20D52F00EBD565 /* AppDelegate.m in Sources */,
+				9C13D3E91D20D52F00EBD565 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C13D3F91D20D52F00EBD565 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C13D4021D20D52F00EBD565 /* JX_MediaDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C13D4041D20D52F00EBD565 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C13D40D1D20D52F00EBD565 /* JX_MediaDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9C13D3FF1D20D52F00EBD565 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9C13D3E31D20D52F00EBD565 /* JX-MediaDemo */;
+			targetProxy = 9C13D3FE1D20D52F00EBD565 /* PBXContainerItemProxy */;
+		};
+		9C13D40A1D20D52F00EBD565 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9C13D3E31D20D52F00EBD565 /* JX-MediaDemo */;
+			targetProxy = 9C13D4091D20D52F00EBD565 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9C13D3F01D20D52F00EBD565 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9C13D3F11D20D52F00EBD565 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9C13D3F51D20D52F00EBD565 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9C13D3F61D20D52F00EBD565 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9C13D40F1D20D52F00EBD565 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9C13D4101D20D52F00EBD565 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9C13D4121D20D52F00EBD565 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/JX-MediaDemo",
+				);
+				INFOPLIST_FILE = "JX-MediaDemo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "abc.com.JX-MediaDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9C13D4131D20D52F00EBD565 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/JX-MediaDemo",
+				);
+				INFOPLIST_FILE = "JX-MediaDemo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "abc.com.JX-MediaDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9C13D4151D20D52F00EBD565 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "JX-MediaDemoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "abc.com.JX-MediaDemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JX-MediaDemo.app/JX-MediaDemo";
+			};
+			name = Debug;
+		};
+		9C13D4161D20D52F00EBD565 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "JX-MediaDemoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "abc.com.JX-MediaDemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JX-MediaDemo.app/JX-MediaDemo";
+			};
+			name = Release;
+		};
+		9C13D4181D20D52F00EBD565 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "JX-MediaDemoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "abc.com.JX-MediaDemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "JX-MediaDemo";
+			};
+			name = Debug;
+		};
+		9C13D4191D20D52F00EBD565 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "JX-MediaDemoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "abc.com.JX-MediaDemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "JX-MediaDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9C13D3DF1D20D52F00EBD565 /* Build configuration list for PBXProject "JX-MediaDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C13D40F1D20D52F00EBD565 /* Debug */,
+				9C13D4101D20D52F00EBD565 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C13D4111D20D52F00EBD565 /* Build configuration list for PBXNativeTarget "JX-MediaDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C13D4121D20D52F00EBD565 /* Debug */,
+				9C13D4131D20D52F00EBD565 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C13D4141D20D52F00EBD565 /* Build configuration list for PBXNativeTarget "JX-MediaDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C13D4151D20D52F00EBD565 /* Debug */,
+				9C13D4161D20D52F00EBD565 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C13D4171D20D52F00EBD565 /* Build configuration list for PBXNativeTarget "JX-MediaDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C13D4181D20D52F00EBD565 /* Debug */,
+				9C13D4191D20D52F00EBD565 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9C13D3DC1D20D52F00EBD565 /* Project object */;
+}
